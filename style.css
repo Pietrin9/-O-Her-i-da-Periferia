@@ -1,0 +1,72 @@
+body{
+   font-family: "Oswald", sans-serif;
+   background-image: url("fundo.png");
+   backgroud-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   color: black;
+   font-weight: 1000;
+   text-shadow: 4px 4px 4px black;
+   font-size: 35px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+img{
+  max-width: 90%;
+}
+
+footer{
+ font-family: "Edu AU VIC WA NT Pre", cursive; 
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  textalign: center;
+  color: red;
+}
+
+.nomelink{
+  text-decoration: none;
+  color: white;
+}
+
+.nomelink:hover{
+  color: lightgreen;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+button{
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 25px;
+  background-color: brown;
+  border: 1px solid black;
+  color: black;
+  margin: 20px;
+  border-radius: 200px;
+  padding: 10px;
+  text-shadow: 1px 2px 2px black;
+}
+
+button:hover{
+  background-color: rgba(165,42,42,0.85);
+   border: 1px solid rgba(165,42,42,0.89);
+  font-weight: 800;
+  color: yellow;
+}
+
+main{
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+  padding: 1em;
+}
+
+.passo{
+  display: none;
+}
+
+.passo.ativo{
+  display: block;
+}
